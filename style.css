@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Setting font - link in description */
+    font-family: 'AlphaCentauri';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+h2 {
+    font-size: 8rem;
+    /* Now you need to set gradient but not normal one - you need to set
+    Conic gradient */
+    background: conic-gradient(
+            #CA4246 16.666%, 
+    #E16541 16.666%, 
+    #E16541 33.333%, 
+    #F18F43 33.333%, 
+    #F18F43 50%, 
+    #8B9862 50%, 
+    #8B9862 66.666%, 
+    #476098 66.666%, 
+    #476098 83.333%, 
+    #A7489B 83.333%
+    );
+    /* Settings the background clip to text */
+    /* so the background is like a text which i wrote and  */
+    /* Number 1 */
+    /* -webkit-background-clip: text;
+    color: transparent; */
+    /* Seconds way */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
